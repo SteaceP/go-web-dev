@@ -1,0 +1,25 @@
+{
+  "editor.insertSpaces": false,
+  "editor.defaultFormatter": "golang.go",
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "go.languageServerExperimentalFeatures": {
+    "diagnostics": false
+  },
+  "go.trace.server": "messages",
+  "cSpell.words": [
+    "Paquette",
+    "Steace",
+    "Steacy"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
