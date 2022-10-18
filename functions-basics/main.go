@@ -2,7 +2,7 @@ package main
 
 import "log"
 
-//? Function with 2 return value
+// ? Function with 2 return value
 func main() {
 	var whatToSay string
 	var saySomethingElse string
@@ -20,7 +20,7 @@ func saySomething(s string) (string, string) {
 	return s, "World"
 }
 
-//? Function with a single return value and variables basics
+// ? Function with a single return value and variables basics
 // func main() {
 // 	var whatToSay string
 // 	var saySomethingElse string
