@@ -15,6 +15,7 @@
   },
   "go.trace.server": "messages",
   "cSpell.words": [
+    "coverprofile",
     "github",
     "Paquette",
     "somepackage",
