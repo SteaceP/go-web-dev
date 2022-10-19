@@ -19,7 +19,10 @@
     "Paquette",
     "somepackage",
     "Steace",
-    "Steacy"
+    "steacep",
+    "Steacy",
+    "unmarshalled",
+    "unmarshalling"
   ],
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
