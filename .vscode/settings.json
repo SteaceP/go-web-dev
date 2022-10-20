@@ -15,13 +15,11 @@
   },
   "go.trace.server": "messages",
   "cSpell.words": [
-    "coverprofile",
     "github",
-    "Paquette",
-    "somepackage",
     "Steace",
     "steacep",
     "Steacy",
+    "Paquette",
     "unmarshalled",
     "unmarshalling"
   ],
