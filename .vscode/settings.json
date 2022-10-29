@@ -8,18 +8,28 @@
   },
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "gopls": {
-    "ui.semanticTokens": true
+    "ui.semanticTokens": true,
+    "ui.completion.usePlaceholders": true,
   },
   "go.languageServerExperimentalFeatures": {
     "diagnostics": false
   },
   "go.trace.server": "messages",
   "cSpell.words": [
+bed-and-breakfast
+    "alexedwards",
+    "coverprofile",
+    "github",
+    "gohtml",
+    "gotmpl",
+    "justinas",
+    "nosurf",
+    "Paquette",
+    "somepackage",
     "github",
     "Steace",
     "steacep",
     "Steacy",
-    "Paquette",
     "unmarshalled",
     "unmarshalling"
   ],
@@ -27,5 +37,8 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "remote.SSH.remoteServerListenOnSocket": true,
-  "go.inferGopath": false
+  "go.inferGopath": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
