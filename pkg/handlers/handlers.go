@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/steacep/hello-world/v2/pkg/config"
+	"github.com/steacep/hello-world/v2/pkg/models"
 	"github.com/steacep/hello-world/v2/pkg/render"
 )
 
@@ -29,11 +30,18 @@ func NewHandlers(r *Repository) {
 
 // Home is the home page handler
 func (m *Repository) Home(w http.ResponseWriter, r *http.Request) {
-	render.RenderTemplate(w, "home.page.gohtml")
+	render.RenderTemplate(w, "home.page.gohtml", &models.TemplateData{})
 }
 
 // About is the about page handler
 func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
-	render.RenderTemplate(w, "about.page.gohtml")
+	// perform some logic
+	stringMap := make(map[string]string)
+	stringMap["test"] = "Hello, again!"
+
+	// send the data to the template
+	render.RenderTemplate(w, "about.page.gohtml", &models.TemplateData{
+		StringMap: stringMap,
+	})
 
 }
