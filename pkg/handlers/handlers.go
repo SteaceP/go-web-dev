@@ -8,7 +8,7 @@ import (
 	"github.com/steacep/hello-world/v2/pkg/render"
 )
 
-// Repo the repository used by the handlers
+// Repo is the repository used by the handlers
 var Repo *Repository
 
 // Repository is the repository type
